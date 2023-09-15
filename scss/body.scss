@@ -1,0 +1,48 @@
+body{
+    background: rgb(255, 255, 255);
+}
+.eerste-section{
+    padding: 10rem;
+    height: 80rem;
+    display: flex;
+}
+.text1{
+    padding-top: 10rem;
+    height: 20rem;
+}
+.kop{
+    font-size: 6rem;
+}
+.kopje{
+    font-size: 9rem;
+    transition: 0.5s;
+}
+.kopje:hover{
+    color: red;
+    font-size: 12rem;
+    cursor: pointer;
+}
+.paragraaf{
+    font-size: 5rem;
+    text-decoration: none;
+}
+.paraflink{
+
+    color: black;
+    transition: 0.4s;
+}
+.paraflink:hover{
+    text-decoration: underline;
+    color: rgb(1, 19, 132);
+}
+.tweede-section{
+    height: 80rem;
+    display: flex;
+    background-color: aquamarine;
+    justify-content: center;
+}
+
+.Skills-kop{
+    font-size: 8rem;
+    padding-top: 10rem;
+}

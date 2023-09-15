@@ -1,0 +1,48 @@
+@use "./mixins";
+
+.header{
+    height: 11rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7rem;
+    padding-right: 5rem;
+    background: rgba(255, 255, 255, 0.63);
+    border-radius: 16px;
+    box-shadow: 0 13px 60px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.9px);
+    -webkit-backdrop-filter: blur(8.9px);
+    position: fixed;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+}
+.hoofd{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+
+}
+.knops{
+    display: flex;
+    font-size: 1.7rem;
+    background: rgb(234, 233, 233);
+    color: black;
+    display: flex;
+    border: none;
+    padding: 1rem;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.8s;
+}
+.knops:hover{
+    color: white;
+    background: black ;
+}
+.Contact:hover{
+    color: white;
+    background: rgb(174, 3, 3)
+}
