@@ -1,38 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer ></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
 </head>
+
 <body>
     <header class="header">
-        <a href="#" class="logo"><img src="img/logo-vini.png" width="150"></a>
-        <nav class="hoofd"> 
-            <a class="knops" href="#tweede-section">Projects</a>
-            <a class="knops" href="#">Skills</a>
-            <a class="knops" href="#">About me</a>
-            <a class="knops  Contact" href="#">Contact</a>
+        <a href="#" class="logo"><img src="img/logo-vini.png" width="120"></a>
+        <nav class="hoofd">
+            <a class="knops" href="#tweede-section">About me</a>
+            <a class="knops" href="#derde-section">Skills</a>
+            <a class="knops" href="#vierde-section">Projects</a>
+            <a class="knops  Contact" href="#vijfde-section">Contact</a>
         </nav>
     </header>
-    <body>
-        <section class="eerste-section">
+    <section class="section eerste-section">
+        <article class="text1">
+            <h1 class="kop">Hallo ik ben Vinicius</h1>
+            <h2 class="kopje"> Fullstack Developer</h2>
+            <p class="paragraaf"> <a class="paraflink" href="#tweede-section"><span>⌄</span></a></p>
+        </article>
+    </section>
+    <section class="section tweede-section" id="tweede-section">
+
+        <article class="textAbout">
+            <h2 class="About-kop">About me</h2>
+            <p>
+                Hello! I'm [Your Name], a passionate full-stack developer with a strong background in web development. I
+                have a love for coding and a keen eye for creating engaging and user-friendly web applications.
+            </p>
+            <p>
+                My journey into web development began [mention your background or how you got started]. I specialize in
+                [mention your areas of expertise, e.g., front-end and back-end development] and have experience working
+                with technologies such as [list some relevant technologies or languages].
+            </p>
+            <p>
+                When I'm not coding, you can find me [mention your hobbies or interests outside of development]. I
+                believe in continuous learning and enjoy keeping up with the latest industry trends to deliver
+                high-quality and efficient solutions for my clients.
+            </p>
+            <p>
+                Feel free to explore my portfolio to see some of my recent projects, and don't hesitate to <a
+                    href="contact.html">contact me</a> if you'd like to collaborate or have any questions.
+            </p>
+        </article>
+        <img class="aboutimg" src="img/logo-vini.png" alt="">
+
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#6790ff" fill-opacity="1"
+            d="M0,160L26.7,154.7C53.3,149,107,139,160,149.3C213.3,160,267,192,320,192C373.3,192,427,160,480,160C533.3,160,587,192,640,176C693.3,160,747,96,800,90.7C853.3,85,907,139,960,144C1013.3,149,1067,107,1120,96C1173.3,85,1227,107,1280,138.7C1333.3,171,1387,213,1413,234.7L1440,256L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z">
+        </path>
+    </svg>
+    <section class="section derde-section" id="derde-section">
+        <h2 class="Skills-kop">Skills</h2>
+        <div class="cards">
+            <div class="card">
+                <h2>HTML</h2>
+                <h2>4 jaar ervaring</h2>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="foto-card"  />
+
+            </div>
+            <div class="card">
+                <h2>CSS</h2>
+                <h2>4 jaar ervaring</h2>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"class="foto-card" />
+
+            </div>
+            <div class="card">
+                <h2>Javascript</h2>
+                <h2>3 jaar ervaring</h2>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="foto-card" />
+          
+            </div>
+            <div class="card">
+                <h2>Python</h2>
+                <h2>3 jaar ervaring</h2>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" class="foto-card"  />
+            </div>
+            <div class="card">
+                <h2>PHP</h2>
+                <h2>3 jaar ervaring</h2>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" class="foto-card" />
+          
+            </div>
+            <div class="card">
+                <h2>MySQL</h2>
+                <h2>3 jaar ervaring</h2>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" class="foto-card" />
+          
+            </div>
+            <div class="card">
+                <h2>Sass</h2>
+                <h2>2 jaar ervaring</h2>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" class="foto-card" />
+          
+            </div>
+            <div class="card">
+                <h2>React</h2>
+                <h2>1 jaar ervaring</h2> 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" class="foto-card" />
+            </div>
+            <div class="card">
+                <h2>React</h2>
+                <h2>1 jaar ervaring</h2> 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" class="foto-card" />
+            </div>
             
-            <article class="text1">
-                <h1 class="kop">Hallo ik ben Vinicius</h1>
-                <h2 class="kopje" > Fullstack Developer</h2>
-                <p class="paragraaf"> <a class="paraflink" href="#tweede-section"><br> Bekijk mijn portfolio👇 </a></p>
-            </article>
-        </section>
-        <section class="tweede-section" id="tweede-section">
-            <h2 class="Skills-kop">Skills</h2>
+        </div>
+    </section>
+
+
+    <section class="section vierde-section" id="vierde-section">
+        <h2 class="Projects-kop">Projects</h2>
+        <section class="projecten">
+            <div class="project"><img src="img/projects/techshop.png" alt="foto van techshop Website"></div>
+            <div class="project"><img src="img/projects/techshop.png" alt="foto van techshop Website"></div>
+            <div class="project"><img src="img/projects/techshop.png" alt="foto van techshop Website"></div>
+            <div class="project"><img src="img/projects/techshop.png" alt="foto van techshop Website"></div>
         </section>
 
-    </body>
-    <footer>
 
+
+    </section>
+    <section class="section vijfde-section" id="vijfde-section">
+        <h1 class="kopcontact">Contact</h1>
+        .
+        <form class="form" action="action_page.php">
+
+            <label for="name">Naam</label>
+            <input type="text" id="name" name="firstname" placeholder="Uw naam...">
+        
+            <label for="email"><E-mail></E-mail></label>
+            <input type="text" id="email" name="e-mail" placeholder="Uw email..">
+        
+            <label for="subject">Bericht</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <button class="submit">Submit</button>
+        
+          </form>
+ 
+            
+    </section>
+    <footer class="footer">
+        <p>&copy; 2023 Your Website</p>
+        <div>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
     </footer>
 </body>
+
 </html>
